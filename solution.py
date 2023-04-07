@@ -8,5 +8,5 @@ chat_id = 440527813 # Ваш chat ID, не меняйте название пе�
 
 def solution(p: float, x: np.array) -> tuple:
     alpha = 1 - p
-    return (x.mean() - 0.038)/(1 - alpha / 2) + 0.038, \
-           (x.mean() - 0.038)/(alpha / 2) + 0.038
+    return (x.mean() - 0.086)/(1 - alpha) + 0.086, \
+           (x.mean() - 0.086)/(alpha) + 0.086
